@@ -1,0 +1,3 @@
+E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/CMakeFiles/Demo2_2TaskInfo.elf.dir
+E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

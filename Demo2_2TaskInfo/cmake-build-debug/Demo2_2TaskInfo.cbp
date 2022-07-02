@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Demo2_2TaskInfo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo2_2TaskInfo.elf">
+				<Option output="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Demo2_2TaskInfo.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2_2TaskInfo.elf"/>
+					<CompileFile command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo2_2TaskInfo.elf/fast">
+				<Option output="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Demo2_2TaskInfo.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo2_2TaskInfo.elf/fast"/>
+					<CompileFile command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/make.exe -f &quot;E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/FONT.H">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/FreeRTOSConfig.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/adc.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/gpio.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/lcd.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/main.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/stm32f1xx_it.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Inc/sys.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/adc.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/freertos.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/gpio.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/lcd.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/main.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/stm32f1xx_hal_timebase_tim.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/stm32f1xx_it.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/sys.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/syscalls.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Core/Src/system_stm32f1xx.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/STM32F103RCTx_FLASH.ld">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/startup/startup_stm32f103xe.s">
+			<Option target="Demo2_2TaskInfo.elf"/>
+		</Unit>
+		<Unit filename="E:/Users/22867/CLionProjects/FreeRtos/Demo2_2TaskInfo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

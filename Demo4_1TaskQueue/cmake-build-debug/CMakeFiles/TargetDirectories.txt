@@ -1,0 +1,3 @@
+E:/Users/22867/CLionProjects/FreeRtos/TaskQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Users/22867/CLionProjects/FreeRtos/TaskQueue/cmake-build-debug/CMakeFiles/TaskQueue.elf.dir
+E:/Users/22867/CLionProjects/FreeRtos/TaskQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
